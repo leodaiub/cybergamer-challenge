@@ -29,7 +29,7 @@
 
 ## About The Project
 
-![Product Name Screen Shot]()
+![Product Name Screen Shot](https://raw.githubusercontent.com/leodaiub/cybergamer-challenge/master/public/Captura%20de%20Tela_%C3%81rea%20de%20Sele%C3%A7%C3%A3o_20200831173159.png)
 
 ### Built With
 
