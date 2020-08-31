@@ -29,17 +29,16 @@
 
 ## About The Project
 
-![Product Name Screen Shot]()
+![Product Name Screen Shot](https://raw.githubusercontent.com/leodaiub/cybergamer-challenge/master/public/Captura%20de%20Tela_%C3%81rea%20de%20Sele%C3%A7%C3%A3o_20200831173159.png)
 
 ### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 - [React](https://reactjs.com)
 - [Redux](https://reduxjs.com)
 - [Redux Toolkit](https://reduxjs.com)
 - [TypeScript](https://typescript.com)
 - [Styled-Components](https://styledcomponents.com)
+
 <!-- GETTING STARTED -->
 
 ## Getting Started
