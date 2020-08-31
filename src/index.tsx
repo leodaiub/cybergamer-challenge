@@ -22,9 +22,6 @@ import { HelmetProvider } from 'react-helmet-async';
 import { configureAppStore } from 'store/configureStore';
 import { ModalProvider } from 'styled-react-modal';
 
-// Initialize languages
-import './locales/i18n';
-
 const store = configureAppStore();
 const MOUNT_NODE = document.getElementById('root') as HTMLElement;
 
@@ -50,7 +47,7 @@ if (module.hot) {
   // Hot reloadable translation json files and app
   // modules.hot.accept does not accept dynamic dependencies,
   // have to be constants at compile-time
-  module.hot.accept(['./app', './locales/i18n'], () => {
+  module.hot.accept(['./app'], () => {
     ReactDOM.unmountComponentAtNode(MOUNT_NODE);
     const App = require('./app').App;
     render(App);
