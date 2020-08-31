@@ -52,12 +52,15 @@ export const Designs = memo((props: Props) => {
       ) : (
         <Container>
           {designs.projects.map(project => (
-            <div onClick={() => setCurrentModal(project.id)}>
+            <div
+              className="wrapper"
+              onClick={() => setCurrentModal(project.id)}
+            >
               <Design
                 handleModal={toggleModal}
                 key={project.id}
                 design={project}
-              />
+              />{' '}
               {currentModal === project.id && (
                 <DesignModal
                   avatar={auth.user.avatar_url}
@@ -68,7 +71,28 @@ export const Designs = memo((props: Props) => {
                 />
               )}
             </div>
-          ))}
+          ))}{' '}
+          {designs.projects.map(project => (
+            <div
+              className="wrapper"
+              onClick={() => setCurrentModal(project.id)}
+            >
+              <Design
+                handleModal={toggleModal}
+                key={project.id}
+                design={project}
+              />{' '}
+              {currentModal === project.id && (
+                <DesignModal
+                  avatar={auth.user.avatar_url}
+                  username={auth.user.name}
+                  project={project}
+                  isOpen={isOpen}
+                  handleModal={toggleModal}
+                />
+              )}
+            </div>
+          ))}{' '}
         </Container>
       )}
     </>
@@ -76,8 +100,13 @@ export const Designs = memo((props: Props) => {
 });
 
 const Container = styled.div`
+  margin: 0 auto;
+  width: 80%;
   min-height: 80vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  .wrapper {
+    width: 25%;
+  }
 `;

@@ -45,7 +45,7 @@ export function DesignModal(props: Props) {
 
 const StyledModal = Modal.styled`
 padding: 0.5rem;
-  height: 50%;
+  height: 75%;
   display: flex;
   background-color: #ffffff;
   border: 0;  

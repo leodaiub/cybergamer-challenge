@@ -20,11 +20,7 @@ export function Design(props: Props) {
 }
 
 const Div = styled.div`
-  width: 20%;
   margin: 1rem;
-
-  width: 330px;
-  height: 251px;
   img {
     width: 100%;
     height: 100%;
