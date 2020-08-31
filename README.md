@@ -33,13 +33,12 @@
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 - [React](https://reactjs.com)
 - [Redux](https://reduxjs.com)
 - [Redux Toolkit](https://reduxjs.com)
 - [TypeScript](https://typescript.com)
 - [Styled-Components](https://styledcomponents.com)
+
 <!-- GETTING STARTED -->
 
 ## Getting Started
